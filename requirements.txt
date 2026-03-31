@@ -1,0 +1,46 @@
+# Cross-Sector Factor Timing & Dynamic Allocation Engine
+# Requirements — Python 3.11+
+
+# === Core ===
+pandas>=2.1,<3.0
+numpy>=1.24,<2.0
+scipy>=1.11
+pyarrow>=14                    # Parquet I/O
+
+# === Econometrics & Statistics ===
+statsmodels>=0.14              # HAC standard errors, Granger causality, ADF/KPSS
+arch>=6.2                      # GARCH family (GARCH, GJR-GARCH, EGARCH, FIGARCH)
+hmmlearn>=0.3                  # Gaussian HMM for regime detection
+
+# === Machine Learning ===
+scikit-learn>=1.3              # PCA, preprocessing, Ridge, RF, KNN
+xgboost>=2.0                   # Gradient boosting
+lightgbm>=4.1                  # Light gradient boosting
+imbalanced-learn>=0.11         # SMOTE for classification tasks ONLY
+
+# === Deep Learning ===
+torch>=2.1                     # LSTM, GRU, TFT
+
+# === Optimisation ===
+cvxpy>=1.4                     # Convex optimization (Mean-CVaR, BL, ERC)
+
+# === Visualisation ===
+matplotlib>=3.8
+seaborn>=0.13
+
+# === Data Access ===
+yfinance>=0.2.31               # Yahoo Finance price data
+pandas-datareader>=0.10        # FRED access (Fama-French reader)
+fredapi>=0.5                   # Alternative FRED API access
+
+# === Utilities ===
+openpyxl>=3.1                  # Excel export
+python-dotenv>=1.0             # .env file loading
+joblib>=1.3                    # Model serialization + caching
+tqdm>=4.66                     # Progress bars
+psutil>=5.9                    # Memory monitoring
+
+# === Optional (install separately) ===
+# transformers>=4.35           # FinBERT (large download ~1.5GB)
+# shap>=0.43                   # SHAP for model interpretability
+# python-pptx>=0.6             # PowerPoint generation

@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Data (reproducible from code)
+data/raw/
+data/interim/
+logs/
+__pycache__/
+
+# Model artifacts (large binaries)
+*.pkl
+*.pt
+*.pth
+outputs/models/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
