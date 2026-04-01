@@ -1,11 +1,10 @@
 # Cross-Sector Factor Timing & Dynamic Allocation Engine
 
-## claude.md — Master Blueprint for Claude Code Execution
+## factor_engine.md — Master Blueprint for Claude Code Execution
 
-**Version:** 2.0  
 **Last Updated:** 2026-03-26  
 **Status:** Active Development  
-**Target Audience:** Claude Code AI agent executing this project end-to-end
+**Target Audience:** Claude Code AI agent executing this project end-to-end based on the given instruction.
 
 ---
 
