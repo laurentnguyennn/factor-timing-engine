@@ -28,6 +28,12 @@
 The engine integrates econometric regime detection, conditional volatility modeling, Bayesian portfolio construction, and convex risk optimization into a single walk-forward pipeline — with strict anti-leakage governance at every stage.
 
 **Universe:** 20 tech stocks across 6 subsectors (Semiconductors, Big Tech, Enterprise Software, Cybersecurity, Analytics, Infrastructure).
+- **Semiconductors**: NVDA, AMD, TSM, AVGO, QCOM, MU
+- **Big Tech**: AAPL, MSFT, GOOG, META, NFLX
+- **Enterprise** Software: CRM, ADBE, NOW
+- **Cybersecurity**: PANW, CRWD
+- **Analytics**: DDOG, PLTR
+- **Infrastructure**: ANET, XYZ
 
 **Time horizon:** Factor analysis spans 2004–2026 (22 years); the active backtest window runs from November 2013 to March 2026.
 
